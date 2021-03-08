@@ -799,3 +799,7 @@ body {
     color: black;
   }
 }
+
+#my-nav {
+  margin-left: 2.5rem;
+}
