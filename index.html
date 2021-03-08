@@ -28,8 +28,8 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light bg-transparent" id="gtco-main-nav">
     <div class="container">
         <!-- <a class="navbar-brand">SKYU</a> -->
-        <img src="./logos/black-2x.png" width=35 height=35 alt="Skyu logo">
-        <button class="navbar-toggler" data-target="#my-nav" onclick="myFunction(this)" data-toggle="collapse"><span
+        <img id="logo" src="./logos/black-2x.png" width=35 height=35 alt="Skyu logo">
+        <button id="navbar-toggler" class="navbar-toggler" data-target="#my-nav" onclick="myFunction(this)" data-toggle="collapse"><span
                 class="bar1"></span> <span class="bar2"></span> <span class="bar3"></span></button>
         <div id="my-nav" class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto">
@@ -51,8 +51,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <h1>Be your own boss and work anytime
-                <p><span>Get paid</span> to complete simple tasks in local stores or provide feedback to retailers or brands.<br/>
+                <h1 class="main-title">Be your own boss and work anytime
+                <p class="hero-text"><span>Get paid</span> to complete simple tasks in local stores or provide feedback to retailers or brands.<br/>
                 </br>
                 <span class="bold-text">App Coming Soon</span></p>
                 <a href="#contact">Contact Us <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
@@ -300,22 +300,18 @@
                 <a href="#" class="submit-button">Send <i class="fa fa-angle-right" aria-hidden="true"></i></a>
             </div>
             <div class="col-lg-4">
-                <div class="row">
+                <div class="row footer-links">
                     <div class="col-6">
-                        <h4>About Us</h4>
+                        <h4 class="footer-heading">About Us</h4>
                         <ul class="nav flex-column company-nav">
-                            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li> 
-                        </ul>
-                        
-                        
-                        
+                            <li class="nav-item"><a class="nav-link footer-link" href="#">Contact</a></li> 
+                        </ul> 
                     </div>
                     <div class="col-6">
-                        <h4>Partners</h4>
+                        <h4 class="footer-heading">Partners</h4>
                         <ul class="nav flex-column services-nav">
-                            <!-- <li class="nav-item"><a class="nav-link" href="#">Advertise on Skyu</a></li> -->
-                            <li class="nav-item"><a class="nav-link" href="#about">Partner with us</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#about">Advertise on Skyu</a></li>
+                            <li class="nav-item"><a class="nav-link footer-link" href="#about">Partner with us</a></li>
+                            <li class="nav-item"><a class="nav-link footer-link" href="#about">Advertise on Skyu</a></li>
                         </ul>
                     </div>
                     <div class="col-12">
