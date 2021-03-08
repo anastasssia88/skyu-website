@@ -66,7 +66,7 @@ body {
   font-size: 18px;
   color: #666666;
   padding: 5px 15px !important;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 #gtco-main-nav form a {
   font-size: 18px;
@@ -104,6 +104,8 @@ body {
   z-index: -1;
   border-radius: 50% 0 50% 50%;
 }
+
+
 @media (max-width: 1400px) {
   #gtco-main-nav::after {
     height: 550px;
@@ -122,6 +124,13 @@ body {
     right: 0;
   }
 }
+
+@media (max-width: 800px) {
+  .nav-link-white {
+    color: white!important;
+  }
+}
+
 @media (max-width: 600px) {
   #gtco-main-nav::after {
     width: 100%;
@@ -169,9 +178,13 @@ body {
 }
 
 .gtco-banner-area a, .gtco-feature a, .gtco-features a, .gtco-news .owl-carousel .card a, #gtco-footer .submit-button {
-  background-image: -moz-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
+
+  background-image: -moz-linear-gradient(0deg, #06c6f9 0%, #3D6FE4 100%);
+  background-image: -webkit-linear-gradient(0deg, #06c6f9 0%, #3D6FE4 100%);
+  background-image: -ms-linear-gradient(0deg, #06c6f9 0%, #3D6FE4 100%);
+  /* background-image: -moz-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
   background-image: -webkit-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
-  background-image: -ms-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
+  background-image: -ms-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%); */
   font-size: 18px;
   color: #fff;
   border-radius: 50px;
@@ -181,6 +194,8 @@ body {
   padding-right: 5px;
   text-decoration: none !important;
 }
+
+
 .gtco-banner-area a .fa, .gtco-feature a .fa, .gtco-features a .fa, .gtco-news .owl-carousel .card a .fa, #gtco-footer .submit-button .fa {
   background: #fff;
   border-radius: 50%;
@@ -745,4 +760,9 @@ body {
 .nav-item .nav-link {
   background-color: none;
   background-image: none;
+  text-transform: capitalize;
+}
+
+.bold-text {
+  font-weight: 600;
 }
