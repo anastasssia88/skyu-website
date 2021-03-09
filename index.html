@@ -281,23 +281,28 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8" id="contact">
-                <h4> Contact Us </h4>
-                <!-- name field -->
-                <label for="full name" style="display: none;">Your full name</label>
-                <input type="text" name="full name" class="form-control" placeholder="Full Name">
-                <!-- email field -->
-                <label for="email" style="display: none;">Email</label>
-                <input type="email" name="email" class="form-control" placeholder="Email Address">
-                <!-- name field -->
-                <label for="company" style="display: none;">Company name</label>
-                <input type="text" name="company" class="form-control" placeholder="Company name">
-                <!-- name field -->
-                <label for="website" style="display: none;">Website</label>
-                <input type="text" name="website" class="form-control" placeholder="Website">
-                <!-- message field -->
-                <label for="message" style="display: none;">Message</label>
-                <textarea class="form-control" name="message" placeholder="Message"></textarea>
-                <a href="#" class="submit-button">Send <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                <form action="POST" data-netlify="true">
+                    <h4> Contact Us </h4>
+                    <!-- name field -->
+                    <label for="full name" style="display: none;">Your full name</label>
+                    <input type="text" name="full name" class="form-control" placeholder="Full Name">
+                    <!-- email field -->
+                    <label for="email" style="display: none;">Email</label>
+                    <input type="email" name="email" class="form-control" placeholder="Email Address">
+                    <!-- name field -->
+                    <label for="company" style="display: none;">Company name</label>
+                    <input type="text" name="company" class="form-control" placeholder="Company name">
+                    <!-- name field -->
+                    <label for="website" style="display: none;">Website</label>
+                    <input type="text" name="website" class="form-control" placeholder="Website">
+                    <!-- message field -->
+                    <label for="message" style="display: none;">Message</label>
+                    <textarea class="form-control" name="message" placeholder="Message"></textarea>
+                    <div class="field">
+                        <div data-netlify-recaptcha="true"></div>
+                    </div>
+                    <a href="#" class="submit-button">Send <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                </form>
             </div>
             <div class="col-lg-4">
                 <div class="row footer-links">
