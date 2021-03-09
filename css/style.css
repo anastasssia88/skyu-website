@@ -805,3 +805,7 @@ body {
 #my-nav {
   margin-left: 2.5rem;
 }
+
+.recaptcha {
+  margin-bottom: 1rem;
+}
