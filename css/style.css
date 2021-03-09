@@ -85,8 +85,8 @@ body {
 }
 @media (max-width: 991px) {
   #gtco-main-nav form a.btn-outline-dark {
-    border-color: #1d3ede;
-    color: #1d3ede;
+    border-color:  #3D6FE4;
+    color:  #3D6FE4;
   }
 }
 #gtco-main-nav::after {
@@ -189,10 +189,19 @@ body {
   text-decoration: none !important;
 }
 
+.gtco-news {
+  margin-bottom: 0!important;
+}
+
+
+
 .submit-button {
   border: none;
   cursor: pointer;
 }
+
+
+
 .gtco-banner-area a .fa, .gtco-feature a .fa, .gtco-features a .fa, .gtco-news .owl-carousel .card a .fa, #gtco-footer .submit-button .fa {
   background: #fff;
   border-radius: 50%;
@@ -370,7 +379,7 @@ body {
 }
 .gtco-features .col-lg-8 .card h3 {
   font-size: 24px;
-  color: #1d3ede;
+  color:  #3D6FE4;
 }
 .gtco-features .col-lg-8 .card p {
   font-size: 16px;
@@ -547,7 +556,7 @@ body {
   height: 100px;
 }
 .gtco-testimonials .card h5 {
-  color: #1d3ede;
+  color: #3D6FE4;
   font-size: 21px;
   line-height: 1.3;
 }
@@ -690,7 +699,7 @@ body {
 }
 #gtco-footer h4 {
   font-size: 24px;
-  color: #1d3ede;
+  color:  #3D6FE4;
   margin-bottom: 30px;
 }
 #gtco-footer input, #gtco-footer textarea {
@@ -757,6 +766,7 @@ body {
 .nav-item .nav-link {
   background-color: none;
   background-image: none;
+  color: rgb(44, 44, 44)!important;
   text-transform: capitalize;
 }
 
@@ -810,3 +820,15 @@ body {
 .recaptcha {
   margin-bottom: 1rem;
 }
+
+.container-footer {
+  padding-top: 5rem;
+}
+
+#gtco-footer {
+  width: 100%;
+}
+
+/* footer {
+  background-color: rgba(218, 218, 218, 0.555);
+} */
