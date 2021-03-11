@@ -829,6 +829,11 @@ body {
   width: 100%;
 }
 
-/* footer {
-  background-color: rgba(218, 218, 218, 0.555);
-} */
+.container-fluid{
+  padding-right: 0!important;
+  padding-left: 0!important;
+  margin-right: 0!important;
+}
+footer {
+  background-color: #f2f2f2;
+}
